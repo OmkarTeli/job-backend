@@ -14,7 +14,7 @@ const userRoutes = require("./route/userRoute");
 app.use(userRoutes);
 
 const URL =
-   "mongodb+srv://omkarteli:omkarteli@mern-todo.lopxruv.mongodb.net/multiplemodels";
+   "mongodb+srv:";
 const connectDb = async () => {
    await mongoose
       .connect(URL, {})
